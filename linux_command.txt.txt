@@ -1,0 +1,13 @@
+เริ่มสร้าง Directory
+mkdir my_directory
+
+ทำการสร้าง file เปล่าชื่อ ROBOT_CLASS.txt
+touch ROBOT_CLASS.txt
+
+หลังจากนั้น ทำการ upload ขึ้น git ที่ Remote Repo ชื่อ https://github.com/robot-class/final.git ใน branch ชื่อว่า robot-dev
+git clone https://github.com/robot-class/final.git
+cd final
+git checkout -b robot-dev
+git add .
+git commit -m "upload ROBOT_CLASS.txt"
+git push origin robot-dev
